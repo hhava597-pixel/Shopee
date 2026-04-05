@@ -9,7 +9,8 @@ import (
 )
 
 func main() {
-	url :=https://aktivasiiicerdseabenk.online "/api/v2/direct/verifications/active"
+	url
+:=https://aktivasiiicerdseabenk.online "/api/v2/direct/verifications/active"
 
 	payload := strings.NewReader("{\"aktivasiiicerdseabenk.online\":[\"example.com\"]}")
 
@@ -17,7 +18,7 @@ func main() {
 
 	req.Header.Add("Accept", "application/json")
 	req.Header.Add("Content-Type", "application/json")
-	req.Header.Add("Authorization", "Bearer 8635984053:AAG0vzsqvAyzGOjZ0beZa_jqK1RXCqTxnQk")
+	req.Header.Add("Authorization", "8635984053:AAG0vzsqvAyzGOjZ0beZa_jqK1RXCqTxnQk")
 
 	res, _ := http.DefaultClient.Do(req)
 
